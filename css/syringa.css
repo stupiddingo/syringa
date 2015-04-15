@@ -1,0 +1,30 @@
+/* Override Drupal Bootstrap */
+body.toolbar-drawer {padding-top: 30px !important; }
+.navbar { margin-bottom: 0; border-radius: 0; }
+
+/* Override State.css */
+.container, .navbar.container { max-width: 960px; }
+body { min-height: 100%; }
+#navfull { margin-bottom: 15px; }
+.navbar { margin-bottom: 0; }
+.navbar.container { margin-top: 0; }
+.footer { padding-bottom: 10px; border-top: 5px solid #444; }
+#footer_bottom { background: #073570; }
+footer a:link, footer a:visited, footer a:active { display: inline; }
+.topnav { border-top: 5px solid #214B82; }
+h1.page-header { font-family: 'Amethysta', serif;}
+.navbar-default .navbar-toggle .icon-bar { background-color: #214B82;}
+.navbar-default .navbar-toggle { border-color: #214B82; background-color: #fff; }
+article.node footer, article header, header#page-header{ background: inherit; min-height: 0; border: none; color: inherit; height: inherit; }
+article.node footer a { color: inherit; }
+@media (max-width: 767px) {
+  #navfull ul { margin: 5px; }
+  nav ul.secondary { float: none; }
+  .topnav .nav > li { border-top: none; }
+}
+@media (max-width: 599px) {
+  #navbar .logo img { height: 44px; }
+}
+
+
+
