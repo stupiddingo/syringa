@@ -14,12 +14,6 @@ if(typeof(CKEDITOR) !== 'undefined') {
       /* Bootstrap Styles */
 
       /* Typography */
-      { name : 'span.H2'        , element : 'span', attributes: { 'class': 'h2' } },
-      { name : 'span.H3'        , element : 'span', attributes: { 'class': 'h3' } },
-      { name : 'span.H4'        , element : 'span', attributes: { 'class': 'h4' } },
-      { name : 'span.H5'        , element : 'span', attributes: { 'class': 'h5' } },
-      { name : 'span.H6'        , element : 'span', attributes: { 'class': 'h6' } },
-
       { name : 'Paragraph Lead'     , element : 'p', attributes: { 'class': 'lead' } },
       { name : 'Mark', element: 'mark'},
 
@@ -80,30 +74,6 @@ if(typeof(CKEDITOR) !== 'undefined') {
         attributes :
         {
           'class' : 'table table-condensed'
-        }
-      },
-      {
-        name : 'Image shape rounded',
-        element : 'div',
-        attributes :
-        {
-          'class' : 'img-rounded'
-        }
-      },
-      {
-        name : 'Image shape circle',
-        element : 'div',
-        attributes :
-        {
-          'class' : 'img-circle'
-        }
-      },
-      {
-        name : 'Image shape thumbnail',
-        element : 'div',
-        attributes :
-        {
-          'class' : 'img-thumbnail'
         }
       },
       {
